@@ -22,9 +22,9 @@ export const config = {
                 'parallax-effect/4.png',
             ],
 
-            heroActionText: "",
             highlightedHeadlineWords: ["Impower", "Business", "Technology"],
             breakLineAfter: ["Websites", "User"],
+
         },
         topPageVectors: "landing_page_abstract.png",
         notFoundURL: "/notFound.png",
