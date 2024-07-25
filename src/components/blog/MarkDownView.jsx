@@ -9,6 +9,10 @@ import NavigationStore from '../navigation/NavigationStore';
 import './MarkdownView.scss';
 import { observer } from 'mobx-react';
 import Sidebar from '@/components/navigation/sidebar/Sidebar';
+import RelatedCard from '../cards/relatedCard';
+
+import { getArticles } from '@/lib/github'; 
+import { getSeries } from '@/lib/github'; 
 
 const components = {
   code({ node, inline, className, children, ...props }) {
@@ -37,7 +41,7 @@ const components = {
   },
 };
 
-const MarkDownView = observer(({ rawMdText, children }) => {
+const MarkDownView = observer(({ rawMdText, children, isSeries }) => {
   const [markdown, setMarkdown] = useState('');
   const [headings, setHeadings] = useState([]);
   const [sidebarVisible, setSidebarVisible] = useState(false);
@@ -62,6 +66,25 @@ const MarkDownView = observer(({ rawMdText, children }) => {
     NavigationStore.isSidebarOpen = !sidebarVisible;
   };
 
+
+  const [fileData, setFileData] = useState([]);
+
+  useEffect(() => {
+    getArticles().then(articles => {
+      getSeries().then(series => {
+        const allData=[];
+        if(isSeries){
+          allData.push(...series);
+        }else{
+          allData.push(...articles);
+        }
+          const sortedData = allData.sort((a, b) => new Date(b.dateModified) - new Date(a.dateModified));
+          setFileData(sortedData);
+      });
+    });
+  }, []);
+
+  isSeries=false
   return (
     <div className="markdown-view">
       <Sidebar>
@@ -90,6 +113,35 @@ const MarkDownView = observer(({ rawMdText, children }) => {
           <ReactMarkdown components={components}>{markdown}</ReactMarkdown>
         </div>
       </div>
+      <div className='markdown-view-related'>
+        {isSeries?
+          <>
+            <h2 className='markdown-view-related-title'>Series</h2>
+            {fileData.map((article, index) => (
+                <RelatedCard
+                  imageUrl={article.thumbnailImageUrl}
+                  title={article.title}
+                  date={'Last Updated: '+ article.dateModified}
+                  actionLink={`/blog/series/${encodeURIComponent(article.seriesSlug)}${article.articleIds && article.articleIds.length > 0 ? `?articleIds=${encodeURIComponent(article.articleIds.join(','))}` : ''}`}
+                  description="This is a description"
+                />
+              ))}
+          </>
+        :
+        <>
+          <h2 className='markdown-view-related-title'>Related Blogs</h2>
+          {fileData.map((article, index) => (
+            <RelatedCard
+              imageUrl={article.thumbnailImageUrl}
+              title={article.title}
+              date={'Last Updated: '+ article.dateModified}
+              actionLink={`/blog/${encodeURIComponent(article.blogslug)}`}
+              description="This is a description"
+            />
+          ))}
+        </>
+        }
+      </div> 
     </div>
   );
 });
