@@ -267,6 +267,7 @@ export const config = {
                     title: "Web & Mobile Apps",
                     description: "We develop custom, user-friendly web and mobile applications. Our solutions are designed to meet your specific business needs, offering seamless functionality across devices and platforms",
                     actionLink: "https://cw.choroidstudios.com",
+                    actionLink: "https://cw.choroidstudios.com",
                     actionText: "More Info",
                     isHidden: false,
                     visibleHome: true,
@@ -275,7 +276,7 @@ export const config = {
             ]
         },
         team: {
-            isHidden: false,
+            isHidden: true,
             mainTitle: "Meet the Team",
             mainTitleHighlightedWord: "Team",
             members: [
