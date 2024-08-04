@@ -17,6 +17,7 @@ async function fetchMarkdown(fileUrl) {
 export async function generateMetadata({ params }) {
   const blogslug = params.slug;
   const article = await getArticleBySlug(blogslug);
+  
 
   return {
     title: article.title,
@@ -34,7 +35,7 @@ export default async function ArticlePage({ params }) {
   return (
     <>
       <div style={{ marginTop: 'var(--navigationBarHight)' }}>
-        <MarkDownView rawMdText={markdown} isSeries={article.isSeries} ></MarkDownView>
+        <MarkDownView rawMdText={markdown} ></MarkDownView>
       </div>
     </>
   )
