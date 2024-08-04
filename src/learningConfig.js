@@ -18,7 +18,7 @@ export const learningConfig = {
                 endDate: "2024-04-01",
                 target: "Book lovers, Discord users",
                 outcomes: "AI-powered bot, Streamlit UI",
-                courseLink: "https://www.bookifai.com"
+                courseLink: "mailto:cyberweavers@outlook.com"
             },
             {
                 imageUrl: "/MirageXR.jpg",
@@ -34,7 +34,7 @@ export const learningConfig = {
                 endDate: "",
                 target: "Developers, Makers",
                 outcomes: "Faster prototyping, integration of AR/XR with hardware",
-                courseLink: "https://www.bookifai.com"
+                courseLink: "mailto:cyberweavers@outlook.com"
             },
             {
                 imageUrl: "/unity_chatgpt.png",
@@ -50,7 +50,7 @@ export const learningConfig = {
                 endDate: "",
                 target: "Game Developers, AI Enthusiasts",
                 outcomes: "Enhanced AI capabilities in Unity, simplified AI integration",
-                courseLink: "https://www.bookifai.com"
+                courseLink: "mailto:cyberweavers@outlook.com"
             },
             {
                 imageUrl: "/cfwm2.jpg",
@@ -66,7 +66,7 @@ export const learningConfig = {
                 endDate: "2023-07-01",
                 target: "VR Enthusiasts, Adventure Seekers",
                 outcomes: "Immersive VR experience, exploration of virtual environments",
-                courseLink: "https://www.bookifai.com"
+                courseLink: "mailto:cyberweavers@outlook.com"
             },
             {
                 imageUrl: "/notFound.png",
@@ -82,7 +82,7 @@ export const learningConfig = {
                 endDate: "",
                 target: "Testers",
                 outcomes: "Testing purposes",
-                courseLink: "https://www.bookifai.com"
+                courseLink: "mailto:cyberweavers@outlook.com"
             },
         ] 
     },
