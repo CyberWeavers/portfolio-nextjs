@@ -11,7 +11,7 @@ export const config = {
             heroHeadLine: "We Impower Your Business With Creativity and Technology",
             heroActionText: "",
             heroActionLink: "/services",
-            heroSubHeadLine: "heroSubHead Text Text Text",
+            heroSubHeadLine: "Software Development | Web Development",
             parallaxEffect: false,
             heroImageUrl: "",
             parallaxImages: [
@@ -32,8 +32,9 @@ export const config = {
         links: [
             // { path: '/#projects', title: 'Projects' },
             { path: '/blog', title: 'Blog' },
+            { path: '/learning', title: 'Learning' },
             // { path: '/#solutions', title: 'Solutions' },
-            { path: '/templates', title: 'Templates' },
+            // { path: '/templates', title: 'Templates' },
             { path: '#services', title: 'Services' },
             { path: '/#contact', title: 'Contact' },
         ],
@@ -84,7 +85,7 @@ export const config = {
                     imageUrl: "/bookifai.jpeg",
                     title: "Bookifai",
                     description: "Ever wanted to connect with the characters in your favourite book and chat with them!? Bookifai allows you to just do that! You upload your favorite book and we extract the characters and create a chatbots for you to interact with them using discord!",
-                    actionLink: "mailto:rabeekiblawi@gmail.com",
+                    actionLink: "mailto:cyberweavers@outlook.com",
                     actionText: "Request a Demo",
                     isHidden: false,
                     visibleHome: true
@@ -136,8 +137,8 @@ export const config = {
                     title: "WordPress Development",
                     description: "We create custom WordPress solutions that fit your business needs perfectly. From adjusting your theme to building special plugins, we work to enhance your online presence and make your site more engaging. Our goal is to help you attract and keep more visitors.",
                     icon: "/icons/wordpress-svgrepo-com.svg",
-                    actionLink: "https://example.com/digital-marketing-services",
-                    actionText: "Learn More",
+                    actionLink: "mailto:cyberweavers@outlook.com",
+                    actionText: "More Info",
                     isHidden: false,
                     visibleHome: true,
                     comingSoon: false
@@ -146,8 +147,8 @@ export const config = {
                     title: "Headles Wordpress Migration",
                     description: "We offer seamless migration from WordPress to a headless setup, ensuring no content is lost. We’ll transfer your existing content to a highly customizable front end built from scratch. This modern architecture boosts performance and scalability, giving you a faster, more dynamic website. Let us handle the technical details while you focus on growing your business.",
                     icon: "/icons/product-request-line-item-svgrepo-com.svg",
-                    actionLink: "https://example.com/cloud-computing-services",
-                    actionText: "Get Started",
+                    actionLink: "mailto:cyberweavers@outlook.com",
+                    actionText: "More Info",
                     isHidden: false,
                     visibleHome: true,
                     comingSoon: true
@@ -156,8 +157,8 @@ export const config = {
                     title: "Mobile App Development",
                     description: "We create cross-platform mobile apps for iOS and Android, delivering a consistent user experience while saving time and costs. We offer WordPress integration for easy content management or can use another CMS of your choice. Let us build a versatile app tailored to your needs.",
                     icon: "/icons/mobile-svgrepo-com.svg",
-                    actionLink: "https://example.com/vr-development-services",
-                    actionText: "See Our Work",
+                    actionLink: "mailto:cyberweavers@outlook.com",
+                    actionText: "More Info",
                     isHidden: false,
                     visibleHome: true,
                     comingSoon: false
@@ -166,8 +167,8 @@ export const config = {
                     title: "Custom Bot Development",
                     description: "We build custom bots for Discord, Telegram, and WhatsApp, powered by ChatGPT. These bots enhance community engagement and automate tasks, tailored to your specific needs. Integrate seamlessly with your platform and let us create a smart, responsive bot to streamline your interactions.",
                     icon: "/icons/bot.svg",
-                    actionLink: "https://example.com/bot-development-services",
-                    actionText: "Explore Our Bots",
+                    actionLink: "mailto:cyberweavers@outlook.com",
+                    actionText: "More Info",
                     isHidden: false,
                     visibleHome: true,
                     comingSoon: false
@@ -176,8 +177,8 @@ export const config = {
                     title: "Local AI Document Retrieval",
                     description: "We offer local AI-powered document retrieval solutions that ensure privacy and data security. Our system allows you to efficiently search and access your documents while keeping all data stored securely on your premises. Enhance your document management with a solution that prioritizes your privacy.",
                     icon: "/icons/ai-file-type-svgrepo-com.svg",
-                    actionLink: "https://example.com/local-ai-document-retrieval",
-                    actionText: "Learn More",
+                    actionLink: "mailto:cyberweavers@outlook.com",
+                    actionText: "More Info",
                     isHidden: false,
                     visibleHome: true,
                     comingSoon: false
@@ -186,8 +187,8 @@ export const config = {
                     title: "AR Product Visualization",
                     description: "We offer advanced AR product visualization services, including solutions for restaurants and jewelry. Enhance customer experiences by showcasing products in 3D, allowing users to interact with and visualize items before making decisions. Our AR technology brings your offerings to life, whether for dining, jewelry, or other industries.",
                     icon: "/icons/ar-svgrepo-com.svg",
-                    actionLink: "https://example.com/ar-product-visualization",
-                    actionText: "Discover AR Solutions",
+                    actionLink: "mailto:cyberweavers@outlook.com",
+                    actionText: "More Info",
                     isHidden: false,
                     visibleHome: true,
                     comingSoon: true
@@ -196,8 +197,8 @@ export const config = {
                     title: "Software Development Consultation",
                     description: "We offer expert consultation services for all your software development needs. Whether you’re starting a new project or enhancing an existing one, our team provides tailored advice on strategy, technology, and implementation. Let us guide you through the development process and help you achieve your software goals with confidence.",
                     icon: "/icons/woman-to-consult-svgrepo-com.svg",
-                    actionLink: "https://example.com/software-development-consultation",
-                    actionText: "Schedule a Consultation",
+                    actionLink: "mailto:cyberweavers@outlook.com",
+                    actionText: "More Info",
                     isHidden: false,
                     visibleHome: true,
                     comingSoon: false
@@ -206,8 +207,8 @@ export const config = {
                     title: "Yearly Maintenance Contracts",
                     description: "Our yearly maintenance contracts provide ongoing support and updates to keep your software running smoothly. Choose from our plans for essential or comprehensive support tailored to your needs.",
                     icon: "/icons/fix-ios11-iphone-svgrepo-com.svg",
-                    actionLink: "https://example.com/yearly-maintenance-contracts",
-                    actionText: "Explore Our Plans",
+                    actionLink: "mailto:cyberweavers@outlook.com",
+                    actionText: "More Info",
                     isHidden: false,
                     visibleHome: true,
                     comingSoon: false
@@ -216,11 +217,11 @@ export const config = {
                     title: "Coaching & Teaching Services",
                     description: "We offer expert coaching and teaching services to guide you through web, mobile, AI, and XR projects. Join our community for ongoing support and learning opportunities. Whether you're looking to enhance your skills or drive your business forward, our personalized coaching helps you achieve your goals with confidence.",
                     icon: "/icons/teach-svgrepo-com.svg",
-                    actionLink: "https://example.com/coaching-teaching-services",
-                    actionText: "Learn More",
+                    actionLink: "mailto:cyberweavers@outlook.com",
+                    actionText: "More Info",
                     isHidden: false,
                     visibleHome: true,
-                    comingSoon: true
+                    comingSoon: false
                 }
             ]
         },
@@ -265,7 +266,7 @@ export const config = {
                     icon: "/icons/MobileWeb.svg",
                     title: "Web & Mobile Apps",
                     description: "We develop custom, user-friendly web and mobile applications. Our solutions are designed to meet your specific business needs, offering seamless functionality across devices and platforms",
-                    actionLink: "https://cyberweavers.choroidstudios.com",
+                    actionLink: "https://cw.choroidstudios.com",
                     actionText: "More Info",
                     isHidden: false,
                     visibleHome: true,
@@ -280,7 +281,7 @@ export const config = {
             members: [
                 {
                     imageUrl: "/team/diaa.jpg",
-                    title: "Diaa AbuAllul",
+                    title: "Diyaa Abou Alloul",
                     description: "Creative designer with a passion for user experience and visual storytelling.",
                     visibleHome: true
                 },
@@ -357,7 +358,7 @@ export const config = {
                     imageUrl: "/bookifai.jpeg",
                     title: "Bookifai",
                     description: "Ever wanted to connect",
-                    actionLink: "mailto:rabeekiblawi@gmail.com",
+                    actionLink: "mailto:cyberweavers@outlook.com",
                     isHidden: false,
                     visibleHome: true
                 },
@@ -486,7 +487,7 @@ export const config = {
 
         contactInfo: {
             phone: "+961  71971287",
-            mail: "cyber-weavers@choroid-labs.com",
+            mail: "cyberweavers@outlook.com",
             location: "Saida, LB",
             whatsappMessage: ""
         }
