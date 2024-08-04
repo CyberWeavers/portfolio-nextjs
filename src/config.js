@@ -11,7 +11,7 @@ export const config = {
             heroHeadLine: "We Impower Your Business With Creativity and Technology",
             heroActionText: "",
             heroActionLink: "/services",
-            heroSubHeadLine: "Software Development | Web Development",
+            heroSubHeadLine: "Software Development | XR | AI | Web Development",
             parallaxEffect: false,
             heroImageUrl: "",
             parallaxImages: [
@@ -77,7 +77,7 @@ export const config = {
             aboutImageURL: "/about-us.png",
         },
         projects: {
-            isHidden: true,
+            isHidden: false,
             mainTitle: "Our Projects",
             mainTitleHighlightedWord: "Projects",
             data: [
