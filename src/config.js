@@ -276,7 +276,7 @@ export const config = {
             ]
         },
         team: {
-            isHidden: true,
+            isHidden: false,
             mainTitle: "Meet the Team",
             mainTitleHighlightedWord: "Team",
             members: [
