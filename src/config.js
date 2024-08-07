@@ -35,7 +35,7 @@ export const config = {
             { path: '/learning', title: 'Learning' },
             // { path: '/#solutions', title: 'Solutions' },
             // { path: '/templates', title: 'Templates' },
-            { path: '#services', title: 'Services' },
+            { path: '/#services', title: 'Services' },
             { path: '/#contact', title: 'Contact' },
         ],
 
