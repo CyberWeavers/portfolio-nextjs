@@ -302,12 +302,18 @@ export const config = {
                     imageUrl: "/team/mohammadOthman.png",
                     title: "Mohmmad Othman",
                     description: "Graphic Designer, experienced in creating visual concepts and storytelling.",
-                    visibleHome: true
+                    visibleHome: false
                 },
                 {
                     imageUrl: "/team/shahbaz.jpg",
                     title: "Mohammad Shahbaz",
                     description: "Backend, Mobile, and every thing low level. Currently focusing on mobile and reverse engineering",
+                    visibleHome: false
+                },
+                {
+                    imageUrl: "/team/fdefaultPerson.png",
+                    title: "Dima Abdallah",
+                    description: "Computer Engineering | Cyber Security Track",
                     visibleHome: true
                 },
                 {
@@ -320,13 +326,13 @@ export const config = {
                     imageUrl: "",
                     title: "Nizar Sadek",
                     description: "Creative Game level artist/designer experienced in creating high quality optimized game props and enviroments.",
-                    visibleHome: true
+                    visibleHome: false
                 },
                 {
                     imageUrl: "/team/rabeeQablawi.png",
                     title: "Rabee Qiblawi",
                     description: "Software Engineer, devoted for problem solving, with epxerience in Game Development and XR.",
-                    visibleHome: true,
+                    visibleHome: false,
                     isPremium: false
                 }
             ]
@@ -472,8 +478,8 @@ export const config = {
         github: "",
         linkedin: "https://www.linkedin.com/company/103909655/",
         twitter: "",
-        facebook: "https://facebook.com",
-        instagram: "",
+        facebook: "https://www.facebook.com/profile.php?id=61563937222615",
+        instagram: "https://www.instagram.com/cyberweavers/",
         tiktok: "",
         youtube: "",
     },
