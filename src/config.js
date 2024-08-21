@@ -320,7 +320,7 @@ export const config = {
                     imageUrl: "/team/mustafaZabet.png",
                     title: "Mustafa Zabet",
                     description: "Software engineer specializing in front-end development and UI/UX design.",
-                    visibleHome: true
+                    visibleHome: false
                 },
                 {
                     imageUrl: "",
