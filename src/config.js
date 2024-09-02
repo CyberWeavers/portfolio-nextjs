@@ -359,7 +359,7 @@ export const config = {
                     imageUrl: "/team/rabeeQablawi.png",
                     title: "Rabee Qiblawi",
                     description: "Software Engineer, devoted for problem solving, with epxerience in Game Development and XR.",
-                    visibleHome: false,
+                    visibleHome: true,
                     isPremium: false
                 }
             ]
