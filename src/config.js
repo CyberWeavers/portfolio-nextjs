@@ -129,102 +129,129 @@ export const config = {
             ]
         },
         services: {
-            isHidden: false,
-            mainTitle: "Our Services",
-            mainTitleHighlightedWord: "Services",
-            data: [
+            "isHidden": false,
+            "mainTitle": "Our Services",
+            "mainTitleHighlightedWord": "Services",
+            "data": [
+                // Web-related services
                 {
-                    title: "WordPress Development",
-                    description: "We create custom WordPress solutions that fit your business needs perfectly. From adjusting your theme to building special plugins, we work to enhance your online presence and make your site more engaging. Our goal is to help you attract and keep more visitors.",
-                    icon: "/icons/wordpress-svgrepo-com.svg",
-                    actionLink: "mailto:cyberweavers@outlook.com",
-                    actionText: "More Info",
-                    isHidden: false,
-                    visibleHome: true,
-                    comingSoon: false
+                    "title": "WordPress Development",
+                    "description": "We create custom WordPress solutions that fit your business needs perfectly. From adjusting your theme to building special plugins, we work to enhance your online presence and make your site more engaging. Our goal is to help you attract and keep more visitors.",
+                    "icon": "/icons/wordpress-svgrepo-com.svg",
+                    "actionLink": "mailto:cyberweavers@outlook.com",
+                    "actionText": "More Info",
+                    "isHidden": false,
+                    "visibleHome": true,
+                    "comingSoon": false,
+                    "category": "Web & Mobile"
                 },
                 {
-                    title: "Headles Wordpress Migration",
-                    description: "We offer seamless migration from WordPress to a headless setup, ensuring no content is lost. We’ll transfer your existing content to a highly customizable front end built from scratch. This modern architecture boosts performance and scalability, giving you a faster, more dynamic website. Let us handle the technical details while you focus on growing your business.",
-                    icon: "/icons/product-request-line-item-svgrepo-com.svg",
-                    actionLink: "mailto:cyberweavers@outlook.com",
-                    actionText: "More Info",
-                    isHidden: false,
-                    visibleHome: true,
-                    comingSoon: true
+                    "title": "Headless Wordpress Migration",
+                    "description": "We offer seamless migration from WordPress to a headless setup, ensuring no content is lost. We’ll transfer your existing content to a highly customizable front end built from scratch. This modern architecture boosts performance and scalability, giving you a faster, more dynamic website. Let us handle the technical details while you focus on growing your business.",
+                    "icon": "/icons/product-request-line-item-svgrepo-com.svg",
+                    "actionLink": "mailto:cyberweavers@outlook.com",
+                    "actionText": "More Info",
+                    "isHidden": false,
+                    "visibleHome": true,
+                    "comingSoon": true,
+                    "category": "Web & Mobile"
                 },
                 {
-                    title: "Mobile App Development",
-                    description: "We create cross-platform mobile apps for iOS and Android, delivering a consistent user experience while saving time and costs. We offer WordPress integration for easy content management or can use another CMS of your choice. Let us build a versatile app tailored to your needs.",
-                    icon: "/icons/mobile-svgrepo-com.svg",
-                    actionLink: "mailto:cyberweavers@outlook.com",
-                    actionText: "More Info",
-                    isHidden: false,
-                    visibleHome: true,
-                    comingSoon: false
+                    "title": "Mobile App Development",
+                    "description": "We create cross-platform mobile apps for iOS and Android, delivering a consistent user experience while saving time and costs. We offer WordPress integration for easy content management or can use another CMS of your choice. Let us build a versatile app tailored to your needs.",
+                    "icon": "/icons/mobile-svgrepo-com.svg",
+                    "actionLink": "mailto:cyberweavers@outlook.com",
+                    "actionText": "More Info",
+                    "isHidden": false,
+                    "visibleHome": true,
+                    "comingSoon": false,
+                    "category": "Web & Mobile"
+                },
+        
+                // Combining Bots and AI-related services
+                {
+                    "title": "Custom Bot Development",
+                    "description": "We build custom bots for Discord, Telegram, and WhatsApp, powered by ChatGPT. These bots enhance community engagement and automate tasks, tailored to your specific needs. Integrate seamlessly with your platform and let us create a smart, responsive bot to streamline your interactions.",
+                    "icon": "/icons/bot.svg",
+                    "actionLink": "mailto:cyberweavers@outlook.com",
+                    "actionText": "More Info",
+                    "isHidden": false,
+                    "visibleHome": true,
+                    "comingSoon": false,
+                    "category": "Bots & AI"
                 },
                 {
-                    title: "Custom Bot Development",
-                    description: "We build custom bots for Discord, Telegram, and WhatsApp, powered by ChatGPT. These bots enhance community engagement and automate tasks, tailored to your specific needs. Integrate seamlessly with your platform and let us create a smart, responsive bot to streamline your interactions.",
-                    icon: "/icons/bot.svg",
-                    actionLink: "mailto:cyberweavers@outlook.com",
-                    actionText: "More Info",
-                    isHidden: false,
-                    visibleHome: true,
-                    comingSoon: false
+                    "title": "Local AI Document Retrieval",
+                    "description": "We offer local AI-powered document retrieval solutions that ensure privacy and data security. Our system allows you to efficiently search and access your documents while keeping all data stored securely on your premises. Enhance your document management with a solution that prioritizes your privacy.",
+                    "icon": "/icons/ai-file-type-svgrepo-com.svg",
+                    "actionLink": "mailto:cyberweavers@outlook.com",
+                    "actionText": "More Info",
+                    "isHidden": false,
+                    "visibleHome": true,
+                    "comingSoon": false,
+                    "category": "Bots & AI"
                 },
                 {
-                    title: "Local AI Document Retrieval",
-                    description: "We offer local AI-powered document retrieval solutions that ensure privacy and data security. Our system allows you to efficiently search and access your documents while keeping all data stored securely on your premises. Enhance your document management with a solution that prioritizes your privacy.",
-                    icon: "/icons/ai-file-type-svgrepo-com.svg",
-                    actionLink: "mailto:cyberweavers@outlook.com",
-                    actionText: "More Info",
-                    isHidden: false,
-                    visibleHome: true,
-                    comingSoon: false
+                    "title": "Computer Vision",
+                    "description": "We provide advanced computer vision solutions that can analyze and interpret visual data from the world around you. From image recognition to video analysis, our services help you leverage visual data to gain actionable insights and automate processes.",
+                    "icon": "/icons/computer-vision.svg",
+                    "actionLink": "mailto:cyberweavers@outlook.com",
+                    "actionText": "More Info",
+                    "isHidden": false,
+                    "visibleHome": true,
+                    "comingSoon": false,
+                    "category": "Bots & AI"
+                },
+        
+                // Combining AR
+                {
+                    "title": "AR Product Visualization",
+                    "description": "We offer advanced AR product visualization services, including solutions for restaurants and jewelry. Enhance customer experiences by showcasing products in 3D, allowing users to interact with and visualize items before making decisions. Our AR technology brings your offerings to life, whether for dining, jewelry, or other industries.",
+                    "icon": "/icons/ar-svgrepo-com.svg",
+                    "actionLink": "mailto:cyberweavers@outlook.com",
+                    "actionText": "More Info",
+                    "isHidden": false,
+                    "visibleHome": false,
+                    "comingSoon": true,
+                    "category": "AR"
                 },
                 {
-                    title: "AR Product Visualization",
-                    description: "We offer advanced AR product visualization services, including solutions for restaurants and jewelry. Enhance customer experiences by showcasing products in 3D, allowing users to interact with and visualize items before making decisions. Our AR technology brings your offerings to life, whether for dining, jewelry, or other industries.",
-                    icon: "/icons/ar-svgrepo-com.svg",
-                    actionLink: "mailto:cyberweavers@outlook.com",
-                    actionText: "More Info",
-                    isHidden: false,
-                    visibleHome: true,
-                    comingSoon: true
+                    "title": "Software Development Consultation",
+                    "description": "We offer expert consultation services for all your software development needs. Whether you’re starting a new project or enhancing an existing one, our team provides tailored advice on strategy, technology, and implementation. Let us guide you through the development process and help you achieve your software goals with confidence.",
+                    "icon": "/icons/woman-to-consult-svgrepo-com.svg",
+                    "actionLink": "mailto:cyberweavers@outlook.com",
+                    "actionText": "More Info",
+                    "isHidden": false,
+                    "visibleHome": true,
+                    "comingSoon": false,
+                    "category": "Maintenance & Coaching"
+                },
+        
+                // Miscellaneous and Coaching
+                {
+                    "title": "Yearly Maintenance Contracts",
+                    "description": "Our yearly maintenance contracts provide ongoing support and updates to keep your software running smoothly. Choose from our plans for essential or comprehensive support tailored to your needs.",
+                    "icon": "/icons/fix-ios11-iphone-svgrepo-com.svg",
+                    "actionLink": "mailto:cyberweavers@outlook.com",
+                    "actionText": "More Info",
+                    "isHidden": false,
+                    "visibleHome": true,
+                    "comingSoon": false,
+                    "category": "Maintenance & Coaching"
                 },
                 {
-                    title: "Software Development Consultation",
-                    description: "We offer expert consultation services for all your software development needs. Whether you’re starting a new project or enhancing an existing one, our team provides tailored advice on strategy, technology, and implementation. Let us guide you through the development process and help you achieve your software goals with confidence.",
-                    icon: "/icons/woman-to-consult-svgrepo-com.svg",
-                    actionLink: "mailto:cyberweavers@outlook.com",
-                    actionText: "More Info",
-                    isHidden: false,
-                    visibleHome: true,
-                    comingSoon: false
-                },
-                {
-                    title: "Yearly Maintenance Contracts",
-                    description: "Our yearly maintenance contracts provide ongoing support and updates to keep your software running smoothly. Choose from our plans for essential or comprehensive support tailored to your needs.",
-                    icon: "/icons/fix-ios11-iphone-svgrepo-com.svg",
-                    actionLink: "mailto:cyberweavers@outlook.com",
-                    actionText: "More Info",
-                    isHidden: false,
-                    visibleHome: true,
-                    comingSoon: false
-                },
-                {
-                    title: "Coaching & Teaching Services",
-                    description: "We offer expert coaching and teaching services to guide you through web, mobile, AI, and XR projects. Join our community for ongoing support and learning opportunities. Whether you're looking to enhance your skills or drive your business forward, our personalized coaching helps you achieve your goals with confidence.",
-                    icon: "/icons/teach-svgrepo-com.svg",
-                    actionLink: "mailto:cyberweavers@outlook.com",
-                    actionText: "More Info",
-                    isHidden: false,
-                    visibleHome: true,
-                    comingSoon: false
+                    "title": "Coaching & Teaching Services",
+                    "description": "We offer expert coaching and teaching services to guide you through web, mobile, AI, and XR projects. Join our community for ongoing support and learning opportunities. Whether you're looking to enhance your skills or drive your business forward, our personalized coaching helps you achieve your goals with confidence.",
+                    "icon": "/icons/teach-svgrepo-com.svg",
+                    "actionLink": "mailto:cyberweavers@outlook.com",
+                    "actionText": "More Info",
+                    "isHidden": false,
+                    "visibleHome": true,
+                    "comingSoon": false,
+                    "category": "Maintenance & Coaching"
                 }
             ]
-        },
+        },                
         solutions: {
             isHidden: true,
             mainTitle: "Our Solutions",
