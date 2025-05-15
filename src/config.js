@@ -32,7 +32,7 @@ export const config = {
         links: [
             // { path: '/#projects', title: 'Projects' },
             { path: '/blog', title: 'Blog' },
-            { path: '/learning', title: 'Learning' },
+            // { path: '/learning', title: 'Learning' },
             // { path: '/#solutions', title: 'Solutions' },
             // { path: '/templates', title: 'Templates' },
             { path: '/#services', title: 'Services' },
@@ -505,7 +505,7 @@ export const config = {
 
         contactInfo: {
             phone: "+961  76 532 105",
-            mail: "cyberweavers@outlook.com",
+            mail: "info@cyber-weavers.com",
             location: "Saida, LB",
             whatsappMessage: ""
         }
