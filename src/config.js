@@ -82,11 +82,11 @@ export const config = {
             mainTitleHighlightedWord: "Projects",
             data: [
                 {
-                    imageUrl: "/bookifai.jpeg",
-                    title: "Bookifai",
-                    description: "Ever wanted to connect with the characters in your favourite book and chat with them!? Bookifai allows you to just do that! You upload your favorite book and we extract the characters and create a chatbots for you to interact with them using discord!",
-                    actionLink: "mailto:cyberweavers@outlook.com",
-                    actionText: "Request a Demo",
+                    imageUrl: "/aqsa-nova.png",
+                    title: "Aqsa Nova",
+                    description: "Out sourced project for a client. Aqsa Nova is a drink it is designed to provide a refreshing and energizing experience. The drink is available in a variety of flavors, and it is perfect for any occasion.",
+                    actionLink: "https://aqsa-nova.com",
+                    actionText: "Visit Website",
                     isHidden: false,
                     visibleHome: true
                 },
@@ -96,7 +96,7 @@ export const config = {
                     description: `Prototype Arduino or ESP projects faster with MirageXR. Our platform connects virtual electronics to your physical hardware, enabling quick testing and development. Using our AR/XR app and Arduino/ESP library, control virtual components with your real board—no extra parts needed.Bridge the physical and virtual worlds in your projects!`,
                     actionLink: "https://www.miragexr.com",
                     actionText: "Join Waitlist",
-                    isHidden: false,
+                    isHidden: true,
                     visibleHome: false
                 },
                 {
@@ -105,6 +105,13 @@ export const config = {
                     description: "Our Unity package allows you to easily integrate OpenAI's Models into your Unity projects. We provided a simple API that allows you to interact and chain multiple models together to create complex AI behaviors in your game or simulation. Our package is designed to be easy to use and flexible to fit your needs. We also provide a set of example scenes to get you started quickly!",
                     actionLink: "https://github.com/rabeeqiblawi/Choroid-Input-System",
                     actionText: "View On Github",
+                    isHidden: false,
+                    visibleHome: true
+                }, {
+                    imageUrl: "/Afadni.jpg",
+                    title: "Afandi AI Customer Service Managment System",
+                    description: "Afandi is a customer service management system that uses AI to help businesses manage their customer interactions. It provides a range of features, including chatbots, ticketing systems, and analytics.",
+                    actionText: "Comming Soon",
                     isHidden: false,
                     visibleHome: true
                 },
@@ -167,7 +174,7 @@ export const config = {
                     "comingSoon": false,
                     "category": "Web & Mobile"
                 },
-        
+
                 // Combining Bots and AI-related services
                 {
                     "title": "Custom Bot Development",
@@ -191,18 +198,7 @@ export const config = {
                     "comingSoon": false,
                     "category": "Bots & AI"
                 },
-                {
-                    "title": "Computer Vision",
-                    "description": "We provide advanced computer vision solutions that can analyze and interpret visual data from the world around you. From image recognition to video analysis, our services help you leverage visual data to gain actionable insights and automate processes.",
-                    "icon": "/icons/computer-vision.svg",
-                    "actionLink": "mailto:cyberweavers@outlook.com",
-                    "actionText": "More Info",
-                    "isHidden": false,
-                    "visibleHome": true,
-                    "comingSoon": false,
-                    "category": "Bots & AI"
-                },
-        
+
                 // Combining AR
                 {
                     "title": "AR Product Visualization",
@@ -221,12 +217,12 @@ export const config = {
                     "icon": "/icons/woman-to-consult-svgrepo-com.svg",
                     "actionLink": "mailto:cyberweavers@outlook.com",
                     "actionText": "More Info",
-                    "isHidden": false,
-                    "visibleHome": true,
+                    "isHidden": true,
+                    "visibleHome": false,
                     "comingSoon": false,
                     "category": "Maintenance & Coaching"
                 },
-        
+
                 // Miscellaneous and Coaching
                 {
                     "title": "Yearly Maintenance Contracts",
@@ -234,8 +230,8 @@ export const config = {
                     "icon": "/icons/fix-ios11-iphone-svgrepo-com.svg",
                     "actionLink": "mailto:cyberweavers@outlook.com",
                     "actionText": "More Info",
-                    "isHidden": false,
-                    "visibleHome": true,
+                    "isHidden": true,
+                    "visibleHome": false,
                     "comingSoon": false,
                     "category": "Maintenance & Coaching"
                 },
@@ -245,13 +241,13 @@ export const config = {
                     "icon": "/icons/teach-svgrepo-com.svg",
                     "actionLink": "mailto:cyberweavers@outlook.com",
                     "actionText": "More Info",
-                    "isHidden": false,
-                    "visibleHome": true,
+                    "isHidden": true,
+                    "visibleHome": false,
                     "comingSoon": false,
                     "category": "Maintenance & Coaching"
                 }
             ]
-        },                
+        },
         solutions: {
             isHidden: true,
             mainTitle: "Our Solutions",
@@ -308,12 +304,6 @@ export const config = {
             mainTitleHighlightedWord: "Team",
             members: [
                 {
-                    imageUrl: "/team/diaa.jpg",
-                    title: "Diyaa Abou Alloul",
-                    description: "Creative designer with a passion for user experience and visual storytelling.",
-                    visibleHome: true
-                },
-                {
                     imageUrl: "/team/hadiDiab.png",
                     title: "Hadi Diab",
                     description: "Software engineer specializing in front-end development and UI/UX design.",
@@ -332,28 +322,10 @@ export const config = {
                     visibleHome: false
                 },
                 {
-                    imageUrl: "/team/shahbaz.jpg",
-                    title: "Mohammad Shahbaz",
-                    description: "Backend, Mobile, and every thing low level. Currently focusing on mobile and reverse engineering",
-                    visibleHome: false
-                },
-                {
-                    imageUrl: "/team/fdefaultPerson.png",
-                    title: "Dima Abdallah",
-                    description: "Computer Engineering | Cyber Security Track",
-                    visibleHome: true
-                },
-                {
-                    imageUrl: "/team/mustafaZabet.png",
-                    title: "Mustafa Zabet",
-                    description: "Software engineer specializing in front-end development and UI/UX design.",
-                    visibleHome: false
-                },
-                {
                     imageUrl: "",
                     title: "Nizar Sadek",
                     description: "Creative Game level artist/designer experienced in creating high quality optimized game props and enviroments.",
-                    visibleHome: false
+                    visibleHome: true,
                 },
                 {
                     imageUrl: "/team/rabeeQablawi.png",
@@ -361,6 +333,18 @@ export const config = {
                     description: "Software Engineer, devoted for problem solving, with epxerience in Game Development and XR.",
                     visibleHome: true,
                     isPremium: false
+                }, {
+                    imageUrl: "",
+                    title: "Mahmoud Shehadeh",
+                    description: "Software Engineer, specialized in Web Development and AI.",
+                    visibleHome: true,
+                    isPremium: false
+                },
+                {
+                    imageUrl: "/team/defaultPerson.png",
+                    title: "Default Person",
+                    description: "Default Person Description",
+                    visibleHome: false
                 }
             ]
         },
@@ -401,7 +385,7 @@ export const config = {
                     title: "MirageXR",
                     description: "Prototype Arduino or ESP miragexr.com",
                     actionLink: "https://github.com/rabeeqiblawi/Choroid-Input-System",
-                    isHidden: false,
+                    isHidden: true,
                     visibleHome: false
                 },
                 {
@@ -520,7 +504,7 @@ export const config = {
         isHidden: false,
 
         contactInfo: {
-            phone: "+961  71971287",
+            phone: "+961  76 532 105",
             mail: "cyberweavers@outlook.com",
             location: "Saida, LB",
             whatsappMessage: ""
